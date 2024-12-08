@@ -20,6 +20,7 @@ public class GradeCalculator {
         System.out.println("Grade Calculator");
         System.out.println("Please enter " + totalTests + " to final class average");
 
+        // init for loop to loop through user inputs
         for( int i = 1; i <= totalTests; i++){
             System.out.println("Please enter grade for test #" + i);
             if(scanner.hasNextDouble()){
